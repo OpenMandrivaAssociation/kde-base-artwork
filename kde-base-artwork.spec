@@ -34,3 +34,8 @@ sed -i 's/KSplash\ Theme\:\ Default/KSplash\ Theme\:\ Air/' %{buildroot}%{_kde_a
 sed -i 's/Default\ Splash\ Screen/Air\ and\ Ariya\ Splash\ Screen/' %{buildroot}%{_kde_appsdir}/ksplash/Themes/Default/Theme.rc
 mv %{buildroot}%{_kde_appsdir}/ksplash/Themes/Default/ %{buildroot}%{_kde_appsdir}/ksplash/Themes/Air
 
+%changelog
+* Wed Dec 05 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 2:4.9.4-1
+- New version 4.9.4
+- Use Mageia spec for initial import and clean it up a bit
+
