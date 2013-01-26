@@ -1,6 +1,6 @@
 Name:		kde-base-artwork
 Summary:	KDE 4 application workspace components
-Version:	4.9.4
+Version:	4.9.5
 Release:	1
 Group:		Graphical desktop/KDE
 License:	GPLv2
@@ -35,6 +35,9 @@ sed -i 's/Default\ Splash\ Screen/Air\ and\ Ariya\ Splash\ Screen/' %{buildroot}
 mv %{buildroot}%{_kde_appsdir}/ksplash/Themes/Default/ %{buildroot}%{_kde_appsdir}/ksplash/Themes/Air
 
 %changelog
+* Sun Jan 13 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 2:4.9.5-1
+- New version 4.9.5
+
 * Wed Dec 05 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 2:4.9.4-1
 - New version 4.9.4
 - Use Mageia spec for initial import and clean it up a bit
