@@ -1,6 +1,6 @@
 Name:		kde-base-artwork
 Summary:	KDE 4 application workspace components
-Version:	4.9.4
+Version:	4.10.0
 Release:	1
 Group:		Graphical desktop/KDE
 License:	GPLv2
@@ -33,4 +33,8 @@ This package provides the Air and Ariya Splash Screen.
 sed -i 's/KSplash\ Theme\:\ Default/KSplash\ Theme\:\ Air/' %{buildroot}%{_kde_appsdir}/ksplash/Themes/Default/Theme.rc
 sed -i 's/Default\ Splash\ Screen/Air\ and\ Ariya\ Splash\ Screen/' %{buildroot}%{_kde_appsdir}/ksplash/Themes/Default/Theme.rc
 mv %{buildroot}%{_kde_appsdir}/ksplash/Themes/Default/ %{buildroot}%{_kde_appsdir}/ksplash/Themes/Air
+
+%changelog
+* Thu Feb 07 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 4.10.0-1
+- New version 4.10.0
 
