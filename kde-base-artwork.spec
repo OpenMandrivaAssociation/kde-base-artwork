@@ -1,6 +1,6 @@
 Summary:	KDE 4 application workspace components
 Name:		kde-base-artwork
-Version:	4.11.0
+Version:	4.11.1
 Release:	1
 Group:		Graphical desktop/KDE
 License:	GPLv2
@@ -35,6 +35,9 @@ sed -i 's/Default\ Splash\ Screen/Air\ and\ Ariya\ Splash\ Screen/' %{buildroot}
 mv %{buildroot}%{_kde_appsdir}/ksplash/Themes/Default/ %{buildroot}%{_kde_appsdir}/ksplash/Themes/Air
 
 %changelog
+* Tue Sep 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 4.11.1-1
+- New version 4.11.1
+
 * Wed Aug 14 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 4.11.0-1
 - New version 4.11.0
 
