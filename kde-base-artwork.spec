@@ -1,7 +1,7 @@
 Summary:	KDE 4 application workspace components
 Name:		kde-base-artwork
 Version:	4.12.1
-Release:	1
+Release:	2
 Group:		Graphical desktop/KDE
 License:	GPLv2
 Url:		http://www.kde.org
