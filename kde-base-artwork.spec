@@ -2,13 +2,13 @@ Summary:	KDE 4 application workspace components
 Name:		kde-base-artwork
 Version:	4.14.1
 Release:	1
+License:	GPLv2+
 Group:		Graphical desktop/KDE
-License:	GPLv2
 Url:		http://www.kde.org
 Source:		ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	kdelibs4-devel
-BuildArch:	noarch
 Conflicts:	kdebase4-workspace < 2:4.9.1
+BuildArch:	noarch
 
 %description
 This package provides the Air and Ariya Splash Screen.
